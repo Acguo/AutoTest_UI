@@ -1,211 +1,105 @@
-Mon, 26 Jun 2017 20:21:57 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:50473/session {"capabilities": {"firstMatch": [], "alwaysMatch": {"browserName": "chrome", "version": "", "platform": "ANY", "chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "chromeOptions": {"extensions": [], "args": []}}}
-Mon, 26 Jun 2017 20:21:59 remote_connection.py[line:565] DEBUG Finished Request
-Mon, 26 Jun 2017 20:21:59 pylog.py[line:23] INFO 10000登陆1开始
-Mon, 26 Jun 2017 20:21:59 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:50473/session/59e8dbd26301858dfa9386d24eb7336c/url {"url": "http://shop.aladdinnet.com", "sessionId": "59e8dbd26301858dfa9386d24eb7336c"}
-Mon, 26 Jun 2017 20:22:17 remote_connection.py[line:565] DEBUG Finished Request
-Mon, 26 Jun 2017 20:22:17 pylog.py[line:23] INFO 10001登陆2开始
-Mon, 26 Jun 2017 20:22:17 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:50473/session/59e8dbd26301858dfa9386d24eb7336c/window/current/maximize {"windowHandle": "current", "sessionId": "59e8dbd26301858dfa9386d24eb7336c"}
-Mon, 26 Jun 2017 20:22:18 remote_connection.py[line:565] DEBUG Finished Request
-Mon, 26 Jun 2017 20:22:18 pylog.py[line:23] INFO 10002登陆4开始
-Mon, 26 Jun 2017 20:22:18 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:50473/session/59e8dbd26301858dfa9386d24eb7336c/element {"using": "xpath", "value": "//*[@id=\"main\"]/div/div[1]/div[2]/div[1]/span[2]/input", "sessionId": "59e8dbd26301858dfa9386d24eb7336c"}
-Mon, 26 Jun 2017 20:22:18 remote_connection.py[line:565] DEBUG Finished Request
-Mon, 26 Jun 2017 20:22:18 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:50473/session/59e8dbd26301858dfa9386d24eb7336c/element {"using": "xpath", "value": "//*[@id=\"main\"]/div/div[1]/div[2]/div[1]/span[2]/input", "sessionId": "59e8dbd26301858dfa9386d24eb7336c"}
-Mon, 26 Jun 2017 20:22:18 remote_connection.py[line:565] DEBUG Finished Request
-Mon, 26 Jun 2017 20:22:18 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:50473/session/59e8dbd26301858dfa9386d24eb7336c/execute {"script": "arguments[0].setAttribute('style', arguments[1]);", "args": [{"ELEMENT": "0.6400054977108836-1", "element-6066-11e4-a52e-4f735466cecf": "0.6400054977108836-1"}, "background: yellow; border: 2px solid red;"], "sessionId": "59e8dbd26301858dfa9386d24eb7336c"}
-Mon, 26 Jun 2017 20:22:18 remote_connection.py[line:565] DEBUG Finished Request
-Mon, 26 Jun 2017 20:22:18 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:50473/session/59e8dbd26301858dfa9386d24eb7336c/element/0.6400054977108836-1/value {"text": "test11", "value": ["t", "e", "s", "t", "1", "1"], "id": "0.6400054977108836-1", "sessionId": "59e8dbd26301858dfa9386d24eb7336c"}
-Mon, 26 Jun 2017 20:22:18 remote_connection.py[line:565] DEBUG Finished Request
-Mon, 26 Jun 2017 20:22:18 pylog.py[line:23] INFO 10003登陆5开始
-Mon, 26 Jun 2017 20:22:18 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:50473/session/59e8dbd26301858dfa9386d24eb7336c/element {"using": "xpath", "value": "//*[@id=\"main\"]/div/div[1]/div[2]/div[2]/span[2]/input", "sessionId": "59e8dbd26301858dfa9386d24eb7336c"}
-Mon, 26 Jun 2017 20:22:18 remote_connection.py[line:565] DEBUG Finished Request
-Mon, 26 Jun 2017 20:22:18 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:50473/session/59e8dbd26301858dfa9386d24eb7336c/element {"using": "xpath", "value": "//*[@id=\"main\"]/div/div[1]/div[2]/div[2]/span[2]/input", "sessionId": "59e8dbd26301858dfa9386d24eb7336c"}
-Mon, 26 Jun 2017 20:22:18 remote_connection.py[line:565] DEBUG Finished Request
-Mon, 26 Jun 2017 20:22:18 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:50473/session/59e8dbd26301858dfa9386d24eb7336c/execute {"script": "arguments[0].setAttribute('style', arguments[1]);", "args": [{"ELEMENT": "0.6400054977108836-2", "element-6066-11e4-a52e-4f735466cecf": "0.6400054977108836-2"}, "background: yellow; border: 2px solid red;"], "sessionId": "59e8dbd26301858dfa9386d24eb7336c"}
-Mon, 26 Jun 2017 20:22:18 remote_connection.py[line:565] DEBUG Finished Request
-Mon, 26 Jun 2017 20:22:18 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:50473/session/59e8dbd26301858dfa9386d24eb7336c/element/0.6400054977108836-2/value {"text": "12345678", "value": ["1", "2", "3", "4", "5", "6", "7", "8"], "id": "0.6400054977108836-2", "sessionId": "59e8dbd26301858dfa9386d24eb7336c"}
-Mon, 26 Jun 2017 20:22:18 remote_connection.py[line:565] DEBUG Finished Request
-Mon, 26 Jun 2017 20:22:18 pylog.py[line:23] INFO 10004登陆6开始
-Mon, 26 Jun 2017 20:22:18 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:50473/session/59e8dbd26301858dfa9386d24eb7336c/element {"using": "xpath", "value": "//*[@id=\"main\"]/div/div[1]/div[2]/div[3]/span[2]/input", "sessionId": "59e8dbd26301858dfa9386d24eb7336c"}
-Mon, 26 Jun 2017 20:22:18 remote_connection.py[line:565] DEBUG Finished Request
-Mon, 26 Jun 2017 20:22:18 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:50473/session/59e8dbd26301858dfa9386d24eb7336c/element {"using": "xpath", "value": "//*[@id=\"main\"]/div/div[1]/div[2]/div[3]/span[2]/input", "sessionId": "59e8dbd26301858dfa9386d24eb7336c"}
-Mon, 26 Jun 2017 20:22:18 remote_connection.py[line:565] DEBUG Finished Request
-Mon, 26 Jun 2017 20:22:18 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:50473/session/59e8dbd26301858dfa9386d24eb7336c/execute {"script": "arguments[0].setAttribute('style', arguments[1]);", "args": [{"ELEMENT": "0.6400054977108836-3", "element-6066-11e4-a52e-4f735466cecf": "0.6400054977108836-3"}, "background: yellow; border: 2px solid red;"], "sessionId": "59e8dbd26301858dfa9386d24eb7336c"}
-Mon, 26 Jun 2017 20:22:18 remote_connection.py[line:565] DEBUG Finished Request
-Mon, 26 Jun 2017 20:22:18 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:50473/session/59e8dbd26301858dfa9386d24eb7336c/element/0.6400054977108836-3/value {"text": "000000", "value": ["0", "0", "0", "0", "0", "0"], "id": "0.6400054977108836-3", "sessionId": "59e8dbd26301858dfa9386d24eb7336c"}
-Mon, 26 Jun 2017 20:22:18 remote_connection.py[line:565] DEBUG Finished Request
-Mon, 26 Jun 2017 20:22:18 pylog.py[line:23] INFO 10005登陆7开始
-Mon, 26 Jun 2017 20:22:18 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:50473/session/59e8dbd26301858dfa9386d24eb7336c/element {"using": "xpath", "value": "//*[@id=\"main\"]/div/div[1]/div[2]/div[4]/a[2]", "sessionId": "59e8dbd26301858dfa9386d24eb7336c"}
-Mon, 26 Jun 2017 20:22:18 remote_connection.py[line:565] DEBUG Finished Request
-Mon, 26 Jun 2017 20:22:18 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:50473/session/59e8dbd26301858dfa9386d24eb7336c/element {"using": "xpath", "value": "//*[@id=\"main\"]/div/div[1]/div[2]/div[4]/a[2]", "sessionId": "59e8dbd26301858dfa9386d24eb7336c"}
-Mon, 26 Jun 2017 20:22:18 remote_connection.py[line:565] DEBUG Finished Request
-Mon, 26 Jun 2017 20:22:18 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:50473/session/59e8dbd26301858dfa9386d24eb7336c/execute {"script": "arguments[0].setAttribute('style', arguments[1]);", "args": [{"ELEMENT": "0.6400054977108836-4", "element-6066-11e4-a52e-4f735466cecf": "0.6400054977108836-4"}, "background: yellow; border: 2px solid red;"], "sessionId": "59e8dbd26301858dfa9386d24eb7336c"}
-Mon, 26 Jun 2017 20:22:18 remote_connection.py[line:565] DEBUG Finished Request
-Mon, 26 Jun 2017 20:22:18 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:50473/session/59e8dbd26301858dfa9386d24eb7336c/element/0.6400054977108836-4/click {"id": "0.6400054977108836-4", "sessionId": "59e8dbd26301858dfa9386d24eb7336c"}
-Mon, 26 Jun 2017 20:22:18 remote_connection.py[line:565] DEBUG Finished Request
-Mon, 26 Jun 2017 20:22:18 pylog.py[line:23] INFO 10006登陆8开始
-Mon, 26 Jun 2017 20:22:20 pylog.py[line:23] INFO 10007登陆9开始
-Mon, 26 Jun 2017 20:22:20 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:50473/session/59e8dbd26301858dfa9386d24eb7336c/element {"using": "xpath", "value": "//*[@id=\"message_content\"]/div/div/div[2]", "sessionId": "59e8dbd26301858dfa9386d24eb7336c"}
-Mon, 26 Jun 2017 20:22:20 remote_connection.py[line:565] DEBUG Finished Request
-Mon, 26 Jun 2017 20:22:20 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:50473/session/59e8dbd26301858dfa9386d24eb7336c/execute {"script": "arguments[0].setAttribute('style', arguments[1]);", "args": [{"ELEMENT": "0.6400054977108836-5", "element-6066-11e4-a52e-4f735466cecf": "0.6400054977108836-5"}, "background: yellow; border: 2px solid red;"], "sessionId": "59e8dbd26301858dfa9386d24eb7336c"}
-Mon, 26 Jun 2017 20:22:20 remote_connection.py[line:565] DEBUG Finished Request
-Mon, 26 Jun 2017 20:22:20 remote_connection.py[line:478] DEBUG GET http://127.0.0.1:50473/session/59e8dbd26301858dfa9386d24eb7336c/element/0.6400054977108836-5/text {"id": "0.6400054977108836-5", "sessionId": "59e8dbd26301858dfa9386d24eb7336c"}
-Mon, 26 Jun 2017 20:22:20 remote_connection.py[line:565] DEBUG Finished Request
-Mon, 26 Jun 2017 20:22:20 pylog.py[line:23] INFO 断言：10007登陆9
-Mon, 26 Jun 2017 20:22:20 pylog.py[line:23] INFO 10008登陆10开始
-Mon, 26 Jun 2017 20:22:26 pylog.py[line:23] INFO 10009会员注册2开始
-Mon, 26 Jun 2017 20:22:26 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:50473/session/59e8dbd26301858dfa9386d24eb7336c/element {"using": "link text", "value": "\u9000\u51fa", "sessionId": "59e8dbd26301858dfa9386d24eb7336c"}
-Mon, 26 Jun 2017 20:22:27 remote_connection.py[line:565] DEBUG Finished Request
-Mon, 26 Jun 2017 20:22:27 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:50473/session/59e8dbd26301858dfa9386d24eb7336c/element {"using": "link text", "value": "\u9000\u51fa", "sessionId": "59e8dbd26301858dfa9386d24eb7336c"}
-Mon, 26 Jun 2017 20:22:27 remote_connection.py[line:565] DEBUG Finished Request
-Mon, 26 Jun 2017 20:22:27 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:50473/session/59e8dbd26301858dfa9386d24eb7336c/execute {"script": "arguments[0].setAttribute('style', arguments[1]);", "args": [{"ELEMENT": "0.45087761372851487-1", "element-6066-11e4-a52e-4f735466cecf": "0.45087761372851487-1"}, "background: yellow; border: 2px solid red;"], "sessionId": "59e8dbd26301858dfa9386d24eb7336c"}
-Mon, 26 Jun 2017 20:22:27 remote_connection.py[line:565] DEBUG Finished Request
-Mon, 26 Jun 2017 20:22:27 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:50473/session/59e8dbd26301858dfa9386d24eb7336c/element/0.45087761372851487-1/click {"id": "0.45087761372851487-1", "sessionId": "59e8dbd26301858dfa9386d24eb7336c"}
-Mon, 26 Jun 2017 20:22:33 remote_connection.py[line:565] DEBUG Finished Request
-Mon, 26 Jun 2017 20:22:33 pylog.py[line:23] INFO 10010会员注册3开始
-Mon, 26 Jun 2017 20:22:33 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:50473/session/59e8dbd26301858dfa9386d24eb7336c/element {"using": "link text", "value": "\u6ce8\u518c", "sessionId": "59e8dbd26301858dfa9386d24eb7336c"}
-Mon, 26 Jun 2017 20:22:33 remote_connection.py[line:565] DEBUG Finished Request
-Mon, 26 Jun 2017 20:22:33 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:50473/session/59e8dbd26301858dfa9386d24eb7336c/element {"using": "link text", "value": "\u6ce8\u518c", "sessionId": "59e8dbd26301858dfa9386d24eb7336c"}
-Mon, 26 Jun 2017 20:22:33 remote_connection.py[line:565] DEBUG Finished Request
-Mon, 26 Jun 2017 20:22:33 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:50473/session/59e8dbd26301858dfa9386d24eb7336c/execute {"script": "arguments[0].setAttribute('style', arguments[1]);", "args": [{"ELEMENT": "0.184086537032649-1", "element-6066-11e4-a52e-4f735466cecf": "0.184086537032649-1"}, "background: yellow; border: 2px solid red;"], "sessionId": "59e8dbd26301858dfa9386d24eb7336c"}
-Mon, 26 Jun 2017 20:22:33 remote_connection.py[line:565] DEBUG Finished Request
-Mon, 26 Jun 2017 20:22:33 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:50473/session/59e8dbd26301858dfa9386d24eb7336c/element/0.184086537032649-1/click {"id": "0.184086537032649-1", "sessionId": "59e8dbd26301858dfa9386d24eb7336c"}
-Mon, 26 Jun 2017 20:22:34 remote_connection.py[line:565] DEBUG Finished Request
-Mon, 26 Jun 2017 20:22:34 pylog.py[line:23] INFO 10011会员注册4开始
-Mon, 26 Jun 2017 20:22:37 pylog.py[line:23] INFO 10012会员注册5开始
-Mon, 26 Jun 2017 20:22:37 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:50473/session/59e8dbd26301858dfa9386d24eb7336c/element {"using": "id", "value": "username", "sessionId": "59e8dbd26301858dfa9386d24eb7336c"}
-Mon, 26 Jun 2017 20:22:37 remote_connection.py[line:565] DEBUG Finished Request
-Mon, 26 Jun 2017 20:22:37 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:50473/session/59e8dbd26301858dfa9386d24eb7336c/element {"using": "id", "value": "username", "sessionId": "59e8dbd26301858dfa9386d24eb7336c"}
-Mon, 26 Jun 2017 20:22:37 remote_connection.py[line:565] DEBUG Finished Request
-Mon, 26 Jun 2017 20:22:37 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:50473/session/59e8dbd26301858dfa9386d24eb7336c/execute {"script": "arguments[0].setAttribute('style', arguments[1]);", "args": [{"ELEMENT": "0.5916821439866775-1", "element-6066-11e4-a52e-4f735466cecf": "0.5916821439866775-1"}, "background: yellow; border: 2px solid red;"], "sessionId": "59e8dbd26301858dfa9386d24eb7336c"}
-Mon, 26 Jun 2017 20:22:37 remote_connection.py[line:565] DEBUG Finished Request
-Mon, 26 Jun 2017 20:22:37 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:50473/session/59e8dbd26301858dfa9386d24eb7336c/element/0.5916821439866775-1/value {"text": "qwe1233", "value": ["q", "w", "e", "1", "2", "3", "3"], "id": "0.5916821439866775-1", "sessionId": "59e8dbd26301858dfa9386d24eb7336c"}
-Mon, 26 Jun 2017 20:22:37 remote_connection.py[line:565] DEBUG Finished Request
-Mon, 26 Jun 2017 20:22:37 pylog.py[line:23] INFO 10013会员注册6开始
-Mon, 26 Jun 2017 20:22:37 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:50473/session/59e8dbd26301858dfa9386d24eb7336c/element {"using": "id", "value": "password", "sessionId": "59e8dbd26301858dfa9386d24eb7336c"}
-Mon, 26 Jun 2017 20:22:37 remote_connection.py[line:565] DEBUG Finished Request
-Mon, 26 Jun 2017 20:22:37 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:50473/session/59e8dbd26301858dfa9386d24eb7336c/element {"using": "id", "value": "password", "sessionId": "59e8dbd26301858dfa9386d24eb7336c"}
-Mon, 26 Jun 2017 20:22:37 remote_connection.py[line:565] DEBUG Finished Request
-Mon, 26 Jun 2017 20:22:37 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:50473/session/59e8dbd26301858dfa9386d24eb7336c/execute {"script": "arguments[0].setAttribute('style', arguments[1]);", "args": [{"ELEMENT": "0.5916821439866775-2", "element-6066-11e4-a52e-4f735466cecf": "0.5916821439866775-2"}, "background: yellow; border: 2px solid red;"], "sessionId": "59e8dbd26301858dfa9386d24eb7336c"}
-Mon, 26 Jun 2017 20:22:37 remote_connection.py[line:565] DEBUG Finished Request
-Mon, 26 Jun 2017 20:22:37 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:50473/session/59e8dbd26301858dfa9386d24eb7336c/element/0.5916821439866775-2/value {"text": "12345678", "value": ["1", "2", "3", "4", "5", "6", "7", "8"], "id": "0.5916821439866775-2", "sessionId": "59e8dbd26301858dfa9386d24eb7336c"}
-Mon, 26 Jun 2017 20:22:37 remote_connection.py[line:565] DEBUG Finished Request
-Mon, 26 Jun 2017 20:22:37 pylog.py[line:23] INFO 10014会员注册7开始
-Mon, 26 Jun 2017 20:22:37 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:50473/session/59e8dbd26301858dfa9386d24eb7336c/element {"using": "id", "value": "paymentPassword", "sessionId": "59e8dbd26301858dfa9386d24eb7336c"}
-Mon, 26 Jun 2017 20:22:37 remote_connection.py[line:565] DEBUG Finished Request
-Mon, 26 Jun 2017 20:22:37 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:50473/session/59e8dbd26301858dfa9386d24eb7336c/element {"using": "id", "value": "paymentPassword", "sessionId": "59e8dbd26301858dfa9386d24eb7336c"}
-Mon, 26 Jun 2017 20:22:37 remote_connection.py[line:565] DEBUG Finished Request
-Mon, 26 Jun 2017 20:22:37 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:50473/session/59e8dbd26301858dfa9386d24eb7336c/execute {"script": "arguments[0].setAttribute('style', arguments[1]);", "args": [{"ELEMENT": "0.5916821439866775-3", "element-6066-11e4-a52e-4f735466cecf": "0.5916821439866775-3"}, "background: yellow; border: 2px solid red;"], "sessionId": "59e8dbd26301858dfa9386d24eb7336c"}
-Mon, 26 Jun 2017 20:22:37 remote_connection.py[line:565] DEBUG Finished Request
-Mon, 26 Jun 2017 20:22:37 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:50473/session/59e8dbd26301858dfa9386d24eb7336c/element/0.5916821439866775-3/value {"text": "123456", "value": ["1", "2", "3", "4", "5", "6"], "id": "0.5916821439866775-3", "sessionId": "59e8dbd26301858dfa9386d24eb7336c"}
-Mon, 26 Jun 2017 20:22:37 remote_connection.py[line:565] DEBUG Finished Request
-Mon, 26 Jun 2017 20:22:37 pylog.py[line:23] INFO 10015会员注册8开始
-Mon, 26 Jun 2017 20:22:37 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:50473/session/59e8dbd26301858dfa9386d24eb7336c/element {"using": "id", "value": "realname", "sessionId": "59e8dbd26301858dfa9386d24eb7336c"}
-Mon, 26 Jun 2017 20:22:37 remote_connection.py[line:565] DEBUG Finished Request
-Mon, 26 Jun 2017 20:22:38 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:50473/session/59e8dbd26301858dfa9386d24eb7336c/element {"using": "id", "value": "realname", "sessionId": "59e8dbd26301858dfa9386d24eb7336c"}
-Mon, 26 Jun 2017 20:22:38 remote_connection.py[line:565] DEBUG Finished Request
-Mon, 26 Jun 2017 20:22:39 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:50473/session/59e8dbd26301858dfa9386d24eb7336c/element {"using": "id", "value": "realname", "sessionId": "59e8dbd26301858dfa9386d24eb7336c"}
-Mon, 26 Jun 2017 20:22:39 remote_connection.py[line:565] DEBUG Finished Request
-Mon, 26 Jun 2017 20:22:40 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:50473/session/59e8dbd26301858dfa9386d24eb7336c/element {"using": "id", "value": "realname", "sessionId": "59e8dbd26301858dfa9386d24eb7336c"}
-Mon, 26 Jun 2017 20:22:40 remote_connection.py[line:565] DEBUG Finished Request
-Mon, 26 Jun 2017 20:22:41 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:50473/session/59e8dbd26301858dfa9386d24eb7336c/element {"using": "id", "value": "realname", "sessionId": "59e8dbd26301858dfa9386d24eb7336c"}
-Mon, 26 Jun 2017 20:22:41 remote_connection.py[line:565] DEBUG Finished Request
-Mon, 26 Jun 2017 20:22:42 pylog.py[line:31] ERROR 异常截图-输入Message: 
-
-Mon, 26 Jun 2017 20:22:42 remote_connection.py[line:478] DEBUG GET http://127.0.0.1:50473/session/59e8dbd26301858dfa9386d24eb7336c/screenshot {"sessionId": "59e8dbd26301858dfa9386d24eb7336c"}
-Mon, 26 Jun 2017 20:22:43 remote_connection.py[line:565] DEBUG Finished Request
-Mon, 26 Jun 2017 20:22:43 pylog.py[line:23] INFO 10016会员注册9开始
-Mon, 26 Jun 2017 20:22:43 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:50473/session/59e8dbd26301858dfa9386d24eb7336c/element {"using": "id", "value": "bankCardNo", "sessionId": "59e8dbd26301858dfa9386d24eb7336c"}
-Mon, 26 Jun 2017 20:22:43 remote_connection.py[line:565] DEBUG Finished Request
-Mon, 26 Jun 2017 20:22:43 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:50473/session/59e8dbd26301858dfa9386d24eb7336c/element {"using": "id", "value": "bankCardNo", "sessionId": "59e8dbd26301858dfa9386d24eb7336c"}
-Mon, 26 Jun 2017 20:22:43 remote_connection.py[line:565] DEBUG Finished Request
-Mon, 26 Jun 2017 20:22:43 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:50473/session/59e8dbd26301858dfa9386d24eb7336c/execute {"script": "arguments[0].setAttribute('style', arguments[1]);", "args": [{"ELEMENT": "0.5916821439866775-4", "element-6066-11e4-a52e-4f735466cecf": "0.5916821439866775-4"}, "background: yellow; border: 2px solid red;"], "sessionId": "59e8dbd26301858dfa9386d24eb7336c"}
-Mon, 26 Jun 2017 20:22:43 remote_connection.py[line:565] DEBUG Finished Request
-Mon, 26 Jun 2017 20:22:43 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:50473/session/59e8dbd26301858dfa9386d24eb7336c/element/0.5916821439866775-4/value {"text": "123456543234543345", "value": ["1", "2", "3", "4", "5", "6", "5", "4", "3", "2", "3", "4", "5", "4", "3", "3", "4", "5"], "id": "0.5916821439866775-4", "sessionId": "59e8dbd26301858dfa9386d24eb7336c"}
-Mon, 26 Jun 2017 20:22:43 remote_connection.py[line:565] DEBUG Finished Request
-Mon, 26 Jun 2017 20:22:43 pylog.py[line:23] INFO 10017会员注册10开始
-Mon, 26 Jun 2017 20:22:43 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:50473/session/59e8dbd26301858dfa9386d24eb7336c/element {"using": "id", "value": "bank", "sessionId": "59e8dbd26301858dfa9386d24eb7336c"}
-Mon, 26 Jun 2017 20:22:43 remote_connection.py[line:565] DEBUG Finished Request
-Mon, 26 Jun 2017 20:22:43 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:50473/session/59e8dbd26301858dfa9386d24eb7336c/element {"using": "id", "value": "bank", "sessionId": "59e8dbd26301858dfa9386d24eb7336c"}
-Mon, 26 Jun 2017 20:22:43 remote_connection.py[line:565] DEBUG Finished Request
-Mon, 26 Jun 2017 20:22:43 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:50473/session/59e8dbd26301858dfa9386d24eb7336c/execute {"script": "arguments[0].setAttribute('style', arguments[1]);", "args": [{"ELEMENT": "0.5916821439866775-5", "element-6066-11e4-a52e-4f735466cecf": "0.5916821439866775-5"}, "background: yellow; border: 2px solid red;"], "sessionId": "59e8dbd26301858dfa9386d24eb7336c"}
-Mon, 26 Jun 2017 20:22:43 remote_connection.py[line:565] DEBUG Finished Request
-Mon, 26 Jun 2017 20:22:43 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:50473/session/59e8dbd26301858dfa9386d24eb7336c/element/0.5916821439866775-5/value {"text": "qwe", "value": ["q", "w", "e"], "id": "0.5916821439866775-5", "sessionId": "59e8dbd26301858dfa9386d24eb7336c"}
-Mon, 26 Jun 2017 20:22:43 remote_connection.py[line:565] DEBUG Finished Request
-Mon, 26 Jun 2017 20:22:43 pylog.py[line:23] INFO 10018会员注册11开始
-Mon, 26 Jun 2017 20:22:43 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:50473/session/59e8dbd26301858dfa9386d24eb7336c/element {"using": "id", "value": "bankDeposit", "sessionId": "59e8dbd26301858dfa9386d24eb7336c"}
-Mon, 26 Jun 2017 20:22:43 remote_connection.py[line:565] DEBUG Finished Request
-Mon, 26 Jun 2017 20:22:43 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:50473/session/59e8dbd26301858dfa9386d24eb7336c/element {"using": "id", "value": "bankDeposit", "sessionId": "59e8dbd26301858dfa9386d24eb7336c"}
-Mon, 26 Jun 2017 20:22:43 remote_connection.py[line:565] DEBUG Finished Request
-Mon, 26 Jun 2017 20:22:43 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:50473/session/59e8dbd26301858dfa9386d24eb7336c/execute {"script": "arguments[0].setAttribute('style', arguments[1]);", "args": [{"ELEMENT": "0.5916821439866775-6", "element-6066-11e4-a52e-4f735466cecf": "0.5916821439866775-6"}, "background: yellow; border: 2px solid red;"], "sessionId": "59e8dbd26301858dfa9386d24eb7336c"}
-Mon, 26 Jun 2017 20:22:43 remote_connection.py[line:565] DEBUG Finished Request
-Mon, 26 Jun 2017 20:22:43 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:50473/session/59e8dbd26301858dfa9386d24eb7336c/element/0.5916821439866775-6/value {"text": "qwe", "value": ["q", "w", "e"], "id": "0.5916821439866775-6", "sessionId": "59e8dbd26301858dfa9386d24eb7336c"}
-Mon, 26 Jun 2017 20:22:43 remote_connection.py[line:565] DEBUG Finished Request
-Mon, 26 Jun 2017 20:22:43 pylog.py[line:23] INFO 10019会员注册12开始
-Mon, 26 Jun 2017 20:22:43 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:50473/session/59e8dbd26301858dfa9386d24eb7336c/element {"using": "id", "value": "telephone", "sessionId": "59e8dbd26301858dfa9386d24eb7336c"}
-Mon, 26 Jun 2017 20:22:43 remote_connection.py[line:565] DEBUG Finished Request
-Mon, 26 Jun 2017 20:22:43 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:50473/session/59e8dbd26301858dfa9386d24eb7336c/element {"using": "id", "value": "telephone", "sessionId": "59e8dbd26301858dfa9386d24eb7336c"}
-Mon, 26 Jun 2017 20:22:43 remote_connection.py[line:565] DEBUG Finished Request
-Mon, 26 Jun 2017 20:22:43 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:50473/session/59e8dbd26301858dfa9386d24eb7336c/execute {"script": "arguments[0].setAttribute('style', arguments[1]);", "args": [{"ELEMENT": "0.5916821439866775-7", "element-6066-11e4-a52e-4f735466cecf": "0.5916821439866775-7"}, "background: yellow; border: 2px solid red;"], "sessionId": "59e8dbd26301858dfa9386d24eb7336c"}
-Mon, 26 Jun 2017 20:22:43 remote_connection.py[line:565] DEBUG Finished Request
-Mon, 26 Jun 2017 20:22:43 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:50473/session/59e8dbd26301858dfa9386d24eb7336c/element/0.5916821439866775-7/value {"text": "13211341241", "value": ["1", "3", "2", "1", "1", "3", "4", "1", "2", "4", "1"], "id": "0.5916821439866775-7", "sessionId": "59e8dbd26301858dfa9386d24eb7336c"}
-Mon, 26 Jun 2017 20:22:43 remote_connection.py[line:565] DEBUG Finished Request
-Mon, 26 Jun 2017 20:22:43 pylog.py[line:23] INFO 10020会员注册13开始
-Mon, 26 Jun 2017 20:22:43 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:50473/session/59e8dbd26301858dfa9386d24eb7336c/element {"using": "id", "value": "email", "sessionId": "59e8dbd26301858dfa9386d24eb7336c"}
-Mon, 26 Jun 2017 20:22:43 remote_connection.py[line:565] DEBUG Finished Request
-Mon, 26 Jun 2017 20:22:43 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:50473/session/59e8dbd26301858dfa9386d24eb7336c/element {"using": "id", "value": "email", "sessionId": "59e8dbd26301858dfa9386d24eb7336c"}
-Mon, 26 Jun 2017 20:22:43 remote_connection.py[line:565] DEBUG Finished Request
-Mon, 26 Jun 2017 20:22:43 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:50473/session/59e8dbd26301858dfa9386d24eb7336c/execute {"script": "arguments[0].setAttribute('style', arguments[1]);", "args": [{"ELEMENT": "0.5916821439866775-8", "element-6066-11e4-a52e-4f735466cecf": "0.5916821439866775-8"}, "background: yellow; border: 2px solid red;"], "sessionId": "59e8dbd26301858dfa9386d24eb7336c"}
-Mon, 26 Jun 2017 20:22:43 remote_connection.py[line:565] DEBUG Finished Request
-Mon, 26 Jun 2017 20:22:43 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:50473/session/59e8dbd26301858dfa9386d24eb7336c/element/0.5916821439866775-8/value {"text": "12345@qq.com", "value": ["1", "2", "3", "4", "5", "@", "q", "q", ".", "c", "o", "m"], "id": "0.5916821439866775-8", "sessionId": "59e8dbd26301858dfa9386d24eb7336c"}
-Mon, 26 Jun 2017 20:22:43 remote_connection.py[line:565] DEBUG Finished Request
-Mon, 26 Jun 2017 20:22:43 pylog.py[line:23] INFO 10021会员注册14开始
-Mon, 26 Jun 2017 20:22:43 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:50473/session/59e8dbd26301858dfa9386d24eb7336c/element {"using": "id", "value": "weixin", "sessionId": "59e8dbd26301858dfa9386d24eb7336c"}
-Mon, 26 Jun 2017 20:22:43 remote_connection.py[line:565] DEBUG Finished Request
-Mon, 26 Jun 2017 20:22:43 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:50473/session/59e8dbd26301858dfa9386d24eb7336c/element {"using": "id", "value": "weixin", "sessionId": "59e8dbd26301858dfa9386d24eb7336c"}
-Mon, 26 Jun 2017 20:22:43 remote_connection.py[line:565] DEBUG Finished Request
-Mon, 26 Jun 2017 20:22:43 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:50473/session/59e8dbd26301858dfa9386d24eb7336c/execute {"script": "arguments[0].setAttribute('style', arguments[1]);", "args": [{"ELEMENT": "0.5916821439866775-9", "element-6066-11e4-a52e-4f735466cecf": "0.5916821439866775-9"}, "background: yellow; border: 2px solid red;"], "sessionId": "59e8dbd26301858dfa9386d24eb7336c"}
-Mon, 26 Jun 2017 20:22:43 remote_connection.py[line:565] DEBUG Finished Request
-Mon, 26 Jun 2017 20:22:43 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:50473/session/59e8dbd26301858dfa9386d24eb7336c/element/0.5916821439866775-9/value {"text": "65434567", "value": ["6", "5", "4", "3", "4", "5", "6", "7"], "id": "0.5916821439866775-9", "sessionId": "59e8dbd26301858dfa9386d24eb7336c"}
-Mon, 26 Jun 2017 20:22:43 remote_connection.py[line:565] DEBUG Finished Request
-Mon, 26 Jun 2017 20:22:43 pylog.py[line:23] INFO 10022会员注册15开始
-Mon, 26 Jun 2017 20:22:43 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:50473/session/59e8dbd26301858dfa9386d24eb7336c/element {"using": "id", "value": "qq", "sessionId": "59e8dbd26301858dfa9386d24eb7336c"}
-Mon, 26 Jun 2017 20:22:43 remote_connection.py[line:565] DEBUG Finished Request
-Mon, 26 Jun 2017 20:22:43 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:50473/session/59e8dbd26301858dfa9386d24eb7336c/element {"using": "id", "value": "qq", "sessionId": "59e8dbd26301858dfa9386d24eb7336c"}
-Mon, 26 Jun 2017 20:22:43 remote_connection.py[line:565] DEBUG Finished Request
-Mon, 26 Jun 2017 20:22:43 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:50473/session/59e8dbd26301858dfa9386d24eb7336c/execute {"script": "arguments[0].setAttribute('style', arguments[1]);", "args": [{"ELEMENT": "0.5916821439866775-10", "element-6066-11e4-a52e-4f735466cecf": "0.5916821439866775-10"}, "background: yellow; border: 2px solid red;"], "sessionId": "59e8dbd26301858dfa9386d24eb7336c"}
-Mon, 26 Jun 2017 20:22:43 remote_connection.py[line:565] DEBUG Finished Request
-Mon, 26 Jun 2017 20:22:43 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:50473/session/59e8dbd26301858dfa9386d24eb7336c/element/0.5916821439866775-10/value {"text": "23456543", "value": ["2", "3", "4", "5", "6", "5", "4", "3"], "id": "0.5916821439866775-10", "sessionId": "59e8dbd26301858dfa9386d24eb7336c"}
-Mon, 26 Jun 2017 20:22:43 remote_connection.py[line:565] DEBUG Finished Request
-Mon, 26 Jun 2017 20:22:43 pylog.py[line:23] INFO 10023会员注册16开始
-Mon, 26 Jun 2017 20:22:43 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:50473/session/59e8dbd26301858dfa9386d24eb7336c/element {"using": "id", "value": "code", "sessionId": "59e8dbd26301858dfa9386d24eb7336c"}
-Mon, 26 Jun 2017 20:22:43 remote_connection.py[line:565] DEBUG Finished Request
-Mon, 26 Jun 2017 20:22:43 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:50473/session/59e8dbd26301858dfa9386d24eb7336c/element {"using": "id", "value": "code", "sessionId": "59e8dbd26301858dfa9386d24eb7336c"}
-Mon, 26 Jun 2017 20:22:43 remote_connection.py[line:565] DEBUG Finished Request
-Mon, 26 Jun 2017 20:22:43 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:50473/session/59e8dbd26301858dfa9386d24eb7336c/execute {"script": "arguments[0].setAttribute('style', arguments[1]);", "args": [{"ELEMENT": "0.5916821439866775-11", "element-6066-11e4-a52e-4f735466cecf": "0.5916821439866775-11"}, "background: yellow; border: 2px solid red;"], "sessionId": "59e8dbd26301858dfa9386d24eb7336c"}
-Mon, 26 Jun 2017 20:22:43 remote_connection.py[line:565] DEBUG Finished Request
-Mon, 26 Jun 2017 20:22:43 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:50473/session/59e8dbd26301858dfa9386d24eb7336c/element/0.5916821439866775-11/value {"text": "000000", "value": ["0", "0", "0", "0", "0", "0"], "id": "0.5916821439866775-11", "sessionId": "59e8dbd26301858dfa9386d24eb7336c"}
-Mon, 26 Jun 2017 20:22:44 remote_connection.py[line:565] DEBUG Finished Request
-Mon, 26 Jun 2017 20:22:44 pylog.py[line:23] INFO 10024会员注册17开始
-Mon, 26 Jun 2017 20:22:44 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:50473/session/59e8dbd26301858dfa9386d24eb7336c/element {"using": "css selector", "value": "button.btn.btn-orange", "sessionId": "59e8dbd26301858dfa9386d24eb7336c"}
-Mon, 26 Jun 2017 20:22:44 remote_connection.py[line:565] DEBUG Finished Request
-Mon, 26 Jun 2017 20:22:44 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:50473/session/59e8dbd26301858dfa9386d24eb7336c/element {"using": "css selector", "value": "button.btn.btn-orange", "sessionId": "59e8dbd26301858dfa9386d24eb7336c"}
-Mon, 26 Jun 2017 20:22:44 remote_connection.py[line:565] DEBUG Finished Request
-Mon, 26 Jun 2017 20:22:44 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:50473/session/59e8dbd26301858dfa9386d24eb7336c/execute {"script": "arguments[0].setAttribute('style', arguments[1]);", "args": [{"ELEMENT": "0.5916821439866775-12", "element-6066-11e4-a52e-4f735466cecf": "0.5916821439866775-12"}, "background: yellow; border: 2px solid red;"], "sessionId": "59e8dbd26301858dfa9386d24eb7336c"}
-Mon, 26 Jun 2017 20:22:44 remote_connection.py[line:565] DEBUG Finished Request
-Mon, 26 Jun 2017 20:22:44 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:50473/session/59e8dbd26301858dfa9386d24eb7336c/element/0.5916821439866775-12/click {"id": "0.5916821439866775-12", "sessionId": "59e8dbd26301858dfa9386d24eb7336c"}
-Mon, 26 Jun 2017 20:22:44 remote_connection.py[line:565] DEBUG Finished Request
-Mon, 26 Jun 2017 20:22:44 pylog.py[line:23] INFO 10025会员注册18开始
-Mon, 26 Jun 2017 20:22:45 pylog.py[line:23] INFO 10026会员注册19开始
-Mon, 26 Jun 2017 20:22:45 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:50473/session/59e8dbd26301858dfa9386d24eb7336c/element {"using": "xpath", "value": "//div[@id='message_content']/div/div/div[2]", "sessionId": "59e8dbd26301858dfa9386d24eb7336c"}
-Mon, 26 Jun 2017 20:22:45 remote_connection.py[line:565] DEBUG Finished Request
-Mon, 26 Jun 2017 20:22:45 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:50473/session/59e8dbd26301858dfa9386d24eb7336c/execute {"script": "arguments[0].setAttribute('style', arguments[1]);", "args": [{"ELEMENT": "0.5916821439866775-13", "element-6066-11e4-a52e-4f735466cecf": "0.5916821439866775-13"}, "background: yellow; border: 2px solid red;"], "sessionId": "59e8dbd26301858dfa9386d24eb7336c"}
-Mon, 26 Jun 2017 20:22:45 remote_connection.py[line:565] DEBUG Finished Request
-Mon, 26 Jun 2017 20:22:45 remote_connection.py[line:478] DEBUG GET http://127.0.0.1:50473/session/59e8dbd26301858dfa9386d24eb7336c/element/0.5916821439866775-13/text {"id": "0.5916821439866775-13", "sessionId": "59e8dbd26301858dfa9386d24eb7336c"}
-Mon, 26 Jun 2017 20:22:45 remote_connection.py[line:565] DEBUG Finished Request
-Mon, 26 Jun 2017 20:22:45 pylog.py[line:23] INFO 断言：10026会员注册19
-Mon, 26 Jun 2017 20:22:45 pylog.py[line:23] INFO 断言截图：10026会员注册19
-Mon, 26 Jun 2017 20:22:45 remote_connection.py[line:478] DEBUG GET http://127.0.0.1:50473/session/59e8dbd26301858dfa9386d24eb7336c/screenshot {"sessionId": "59e8dbd26301858dfa9386d24eb7336c"}
-Mon, 26 Jun 2017 20:22:45 remote_connection.py[line:565] DEBUG Finished Request
-Mon, 26 Jun 2017 20:22:45 pylog.py[line:23] INFO 10027会员注册20开始
-Mon, 26 Jun 2017 20:22:53 remote_connection.py[line:478] DEBUG DELETE http://127.0.0.1:50473/session/59e8dbd26301858dfa9386d24eb7336c/window {"sessionId": "59e8dbd26301858dfa9386d24eb7336c"}
-Mon, 26 Jun 2017 20:22:55 remote_connection.py[line:565] DEBUG Finished Request
+Tue, 27 Jun 2017 14:39:57 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:58574/session {"capabilities": {"firstMatch": [], "alwaysMatch": {"browserName": "chrome", "version": "", "platform": "ANY", "chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "chromeOptions": {"extensions": [], "args": []}}}
+Tue, 27 Jun 2017 14:39:59 remote_connection.py[line:565] DEBUG Finished Request
+Tue, 27 Jun 2017 14:39:59 pylog.py[line:23] INFO 10000登陆1开始
+Tue, 27 Jun 2017 14:39:59 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:58574/session/0acaaac44a7d77cc1a71f203cd054bc7/url {"url": "http://shop.aladdinnet.com", "sessionId": "0acaaac44a7d77cc1a71f203cd054bc7"}
+Tue, 27 Jun 2017 14:40:20 remote_connection.py[line:565] DEBUG Finished Request
+Tue, 27 Jun 2017 14:40:20 pylog.py[line:23] INFO 10001登陆2开始
+Tue, 27 Jun 2017 14:40:20 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:58574/session/0acaaac44a7d77cc1a71f203cd054bc7/window/current/maximize {"windowHandle": "current", "sessionId": "0acaaac44a7d77cc1a71f203cd054bc7"}
+Tue, 27 Jun 2017 14:40:22 remote_connection.py[line:565] DEBUG Finished Request
+Tue, 27 Jun 2017 14:40:22 pylog.py[line:23] INFO 10002登陆4开始
+Tue, 27 Jun 2017 14:40:22 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:58574/session/0acaaac44a7d77cc1a71f203cd054bc7/element {"using": "xpath", "value": "//*[@id=\"main\"]/div/div[1]/div[2]/div[1]/span[2]/input", "sessionId": "0acaaac44a7d77cc1a71f203cd054bc7"}
+Tue, 27 Jun 2017 14:40:22 remote_connection.py[line:565] DEBUG Finished Request
+Tue, 27 Jun 2017 14:40:22 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:58574/session/0acaaac44a7d77cc1a71f203cd054bc7/element {"using": "xpath", "value": "//*[@id=\"main\"]/div/div[1]/div[2]/div[1]/span[2]/input", "sessionId": "0acaaac44a7d77cc1a71f203cd054bc7"}
+Tue, 27 Jun 2017 14:40:22 remote_connection.py[line:565] DEBUG Finished Request
+Tue, 27 Jun 2017 14:40:22 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:58574/session/0acaaac44a7d77cc1a71f203cd054bc7/execute {"script": "arguments[0].setAttribute('style', arguments[1]);", "args": [{"ELEMENT": "0.8196938998827175-1", "element-6066-11e4-a52e-4f735466cecf": "0.8196938998827175-1"}, "background: yellow; border: 2px solid red;"], "sessionId": "0acaaac44a7d77cc1a71f203cd054bc7"}
+Tue, 27 Jun 2017 14:40:22 remote_connection.py[line:565] DEBUG Finished Request
+Tue, 27 Jun 2017 14:40:22 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:58574/session/0acaaac44a7d77cc1a71f203cd054bc7/element/0.8196938998827175-1/value {"text": "test11", "value": ["t", "e", "s", "t", "1", "1"], "id": "0.8196938998827175-1", "sessionId": "0acaaac44a7d77cc1a71f203cd054bc7"}
+Tue, 27 Jun 2017 14:40:22 remote_connection.py[line:565] DEBUG Finished Request
+Tue, 27 Jun 2017 14:40:22 pylog.py[line:23] INFO 10003登陆5开始
+Tue, 27 Jun 2017 14:40:22 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:58574/session/0acaaac44a7d77cc1a71f203cd054bc7/element {"using": "xpath", "value": "//*[@id=\"main\"]/div/div[1]/div[2]/div[2]/span[2]/input", "sessionId": "0acaaac44a7d77cc1a71f203cd054bc7"}
+Tue, 27 Jun 2017 14:40:22 remote_connection.py[line:565] DEBUG Finished Request
+Tue, 27 Jun 2017 14:40:22 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:58574/session/0acaaac44a7d77cc1a71f203cd054bc7/element {"using": "xpath", "value": "//*[@id=\"main\"]/div/div[1]/div[2]/div[2]/span[2]/input", "sessionId": "0acaaac44a7d77cc1a71f203cd054bc7"}
+Tue, 27 Jun 2017 14:40:22 remote_connection.py[line:565] DEBUG Finished Request
+Tue, 27 Jun 2017 14:40:22 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:58574/session/0acaaac44a7d77cc1a71f203cd054bc7/execute {"script": "arguments[0].setAttribute('style', arguments[1]);", "args": [{"ELEMENT": "0.8196938998827175-2", "element-6066-11e4-a52e-4f735466cecf": "0.8196938998827175-2"}, "background: yellow; border: 2px solid red;"], "sessionId": "0acaaac44a7d77cc1a71f203cd054bc7"}
+Tue, 27 Jun 2017 14:40:22 remote_connection.py[line:565] DEBUG Finished Request
+Tue, 27 Jun 2017 14:40:22 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:58574/session/0acaaac44a7d77cc1a71f203cd054bc7/element/0.8196938998827175-2/value {"text": "12345678", "value": ["1", "2", "3", "4", "5", "6", "7", "8"], "id": "0.8196938998827175-2", "sessionId": "0acaaac44a7d77cc1a71f203cd054bc7"}
+Tue, 27 Jun 2017 14:40:22 remote_connection.py[line:565] DEBUG Finished Request
+Tue, 27 Jun 2017 14:40:22 pylog.py[line:23] INFO 10004登陆6开始
+Tue, 27 Jun 2017 14:40:22 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:58574/session/0acaaac44a7d77cc1a71f203cd054bc7/element {"using": "xpath", "value": "//*[@id=\"main\"]/div/div[1]/div[2]/div[3]/span[2]/input", "sessionId": "0acaaac44a7d77cc1a71f203cd054bc7"}
+Tue, 27 Jun 2017 14:40:22 remote_connection.py[line:565] DEBUG Finished Request
+Tue, 27 Jun 2017 14:40:22 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:58574/session/0acaaac44a7d77cc1a71f203cd054bc7/element {"using": "xpath", "value": "//*[@id=\"main\"]/div/div[1]/div[2]/div[3]/span[2]/input", "sessionId": "0acaaac44a7d77cc1a71f203cd054bc7"}
+Tue, 27 Jun 2017 14:40:22 remote_connection.py[line:565] DEBUG Finished Request
+Tue, 27 Jun 2017 14:40:22 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:58574/session/0acaaac44a7d77cc1a71f203cd054bc7/execute {"script": "arguments[0].setAttribute('style', arguments[1]);", "args": [{"ELEMENT": "0.8196938998827175-3", "element-6066-11e4-a52e-4f735466cecf": "0.8196938998827175-3"}, "background: yellow; border: 2px solid red;"], "sessionId": "0acaaac44a7d77cc1a71f203cd054bc7"}
+Tue, 27 Jun 2017 14:40:22 remote_connection.py[line:565] DEBUG Finished Request
+Tue, 27 Jun 2017 14:40:22 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:58574/session/0acaaac44a7d77cc1a71f203cd054bc7/element/0.8196938998827175-3/value {"text": "000000", "value": ["0", "0", "0", "0", "0", "0"], "id": "0.8196938998827175-3", "sessionId": "0acaaac44a7d77cc1a71f203cd054bc7"}
+Tue, 27 Jun 2017 14:40:22 remote_connection.py[line:565] DEBUG Finished Request
+Tue, 27 Jun 2017 14:40:22 pylog.py[line:23] INFO 10005登陆7开始
+Tue, 27 Jun 2017 14:40:22 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:58574/session/0acaaac44a7d77cc1a71f203cd054bc7/element {"using": "xpath", "value": "//*[@id=\"main\"]/div/div[1]/div[2]/div[4]/a[2]", "sessionId": "0acaaac44a7d77cc1a71f203cd054bc7"}
+Tue, 27 Jun 2017 14:40:22 remote_connection.py[line:565] DEBUG Finished Request
+Tue, 27 Jun 2017 14:40:22 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:58574/session/0acaaac44a7d77cc1a71f203cd054bc7/element {"using": "xpath", "value": "//*[@id=\"main\"]/div/div[1]/div[2]/div[4]/a[2]", "sessionId": "0acaaac44a7d77cc1a71f203cd054bc7"}
+Tue, 27 Jun 2017 14:40:22 remote_connection.py[line:565] DEBUG Finished Request
+Tue, 27 Jun 2017 14:40:22 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:58574/session/0acaaac44a7d77cc1a71f203cd054bc7/execute {"script": "arguments[0].setAttribute('style', arguments[1]);", "args": [{"ELEMENT": "0.8196938998827175-4", "element-6066-11e4-a52e-4f735466cecf": "0.8196938998827175-4"}, "background: yellow; border: 2px solid red;"], "sessionId": "0acaaac44a7d77cc1a71f203cd054bc7"}
+Tue, 27 Jun 2017 14:40:22 remote_connection.py[line:565] DEBUG Finished Request
+Tue, 27 Jun 2017 14:40:22 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:58574/session/0acaaac44a7d77cc1a71f203cd054bc7/element/0.8196938998827175-4/click {"id": "0.8196938998827175-4", "sessionId": "0acaaac44a7d77cc1a71f203cd054bc7"}
+Tue, 27 Jun 2017 14:40:22 remote_connection.py[line:565] DEBUG Finished Request
+Tue, 27 Jun 2017 14:40:22 pylog.py[line:23] INFO 10006登陆8开始
+Tue, 27 Jun 2017 14:40:24 pylog.py[line:23] INFO 10007登陆9开始
+Tue, 27 Jun 2017 14:40:24 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:58574/session/0acaaac44a7d77cc1a71f203cd054bc7/element {"using": "xpath", "value": "//*[@id=\"message_content\"]/div/div/div[2]", "sessionId": "0acaaac44a7d77cc1a71f203cd054bc7"}
+Tue, 27 Jun 2017 14:40:24 remote_connection.py[line:565] DEBUG Finished Request
+Tue, 27 Jun 2017 14:40:24 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:58574/session/0acaaac44a7d77cc1a71f203cd054bc7/execute {"script": "arguments[0].setAttribute('style', arguments[1]);", "args": [{"ELEMENT": "0.8196938998827175-5", "element-6066-11e4-a52e-4f735466cecf": "0.8196938998827175-5"}, "background: yellow; border: 2px solid red;"], "sessionId": "0acaaac44a7d77cc1a71f203cd054bc7"}
+Tue, 27 Jun 2017 14:40:24 remote_connection.py[line:565] DEBUG Finished Request
+Tue, 27 Jun 2017 14:40:24 remote_connection.py[line:478] DEBUG GET http://127.0.0.1:58574/session/0acaaac44a7d77cc1a71f203cd054bc7/element/0.8196938998827175-5/text {"id": "0.8196938998827175-5", "sessionId": "0acaaac44a7d77cc1a71f203cd054bc7"}
+Tue, 27 Jun 2017 14:40:24 remote_connection.py[line:565] DEBUG Finished Request
+Tue, 27 Jun 2017 14:40:24 pylog.py[line:23] INFO 断言：10007登陆9
+Tue, 27 Jun 2017 14:40:24 pylog.py[line:23] INFO 10008登陆10开始
+Tue, 27 Jun 2017 14:40:30 pylog.py[line:23] INFO 10009MG电子2开始
+Tue, 27 Jun 2017 14:40:30 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:58574/session/0acaaac44a7d77cc1a71f203cd054bc7/element {"using": "xpath", "value": "//*[@id=\"nav_casino\"]/a/span", "sessionId": "0acaaac44a7d77cc1a71f203cd054bc7"}
+Tue, 27 Jun 2017 14:40:35 remote_connection.py[line:565] DEBUG Finished Request
+Tue, 27 Jun 2017 14:40:35 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:58574/session/0acaaac44a7d77cc1a71f203cd054bc7/element {"using": "xpath", "value": "//*[@id=\"nav_casino\"]/a/span", "sessionId": "0acaaac44a7d77cc1a71f203cd054bc7"}
+Tue, 27 Jun 2017 14:40:35 remote_connection.py[line:565] DEBUG Finished Request
+Tue, 27 Jun 2017 14:40:35 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:58574/session/0acaaac44a7d77cc1a71f203cd054bc7/execute {"script": "arguments[0].setAttribute('style', arguments[1]);", "args": [{"ELEMENT": "0.2699567956876996-1", "element-6066-11e4-a52e-4f735466cecf": "0.2699567956876996-1"}, "background: yellow; border: 2px solid red;"], "sessionId": "0acaaac44a7d77cc1a71f203cd054bc7"}
+Tue, 27 Jun 2017 14:40:35 remote_connection.py[line:565] DEBUG Finished Request
+Tue, 27 Jun 2017 14:40:35 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:58574/session/0acaaac44a7d77cc1a71f203cd054bc7/element/0.2699567956876996-1/click {"id": "0.2699567956876996-1", "sessionId": "0acaaac44a7d77cc1a71f203cd054bc7"}
+Tue, 27 Jun 2017 14:40:44 remote_connection.py[line:565] DEBUG Finished Request
+Tue, 27 Jun 2017 14:40:44 pylog.py[line:23] INFO 10010MG电子开始
+Tue, 27 Jun 2017 14:40:46 pylog.py[line:23] INFO 10011MG电子4开始
+Tue, 27 Jun 2017 14:40:46 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:58574/session/0acaaac44a7d77cc1a71f203cd054bc7/element {"using": "xpath", "value": "//*[@id=\"carousel-tag\"]/div/div/ul/li[1]/a/p[1]/img", "sessionId": "0acaaac44a7d77cc1a71f203cd054bc7"}
+Tue, 27 Jun 2017 14:40:46 remote_connection.py[line:565] DEBUG Finished Request
+Tue, 27 Jun 2017 14:40:46 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:58574/session/0acaaac44a7d77cc1a71f203cd054bc7/element {"using": "xpath", "value": "//*[@id=\"carousel-tag\"]/div/div/ul/li[1]/a/p[1]/img", "sessionId": "0acaaac44a7d77cc1a71f203cd054bc7"}
+Tue, 27 Jun 2017 14:40:46 remote_connection.py[line:565] DEBUG Finished Request
+Tue, 27 Jun 2017 14:40:46 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:58574/session/0acaaac44a7d77cc1a71f203cd054bc7/execute {"script": "arguments[0].setAttribute('style', arguments[1]);", "args": [{"ELEMENT": "0.44761571780726994-1", "element-6066-11e4-a52e-4f735466cecf": "0.44761571780726994-1"}, "background: yellow; border: 2px solid red;"], "sessionId": "0acaaac44a7d77cc1a71f203cd054bc7"}
+Tue, 27 Jun 2017 14:40:46 remote_connection.py[line:565] DEBUG Finished Request
+Tue, 27 Jun 2017 14:40:46 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:58574/session/0acaaac44a7d77cc1a71f203cd054bc7/element/0.44761571780726994-1/click {"id": "0.44761571780726994-1", "sessionId": "0acaaac44a7d77cc1a71f203cd054bc7"}
+Tue, 27 Jun 2017 14:40:46 remote_connection.py[line:565] DEBUG Finished Request
+Tue, 27 Jun 2017 14:40:46 pylog.py[line:23] INFO 10012MG电子6开始
+Tue, 27 Jun 2017 14:40:46 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:58574/session/0acaaac44a7d77cc1a71f203cd054bc7/element {"using": "xpath", "value": "//*[@id=\"main\"]/div/div[2]/div/div[1]/input", "sessionId": "0acaaac44a7d77cc1a71f203cd054bc7"}
+Tue, 27 Jun 2017 14:40:46 remote_connection.py[line:565] DEBUG Finished Request
+Tue, 27 Jun 2017 14:40:46 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:58574/session/0acaaac44a7d77cc1a71f203cd054bc7/element {"using": "xpath", "value": "//*[@id=\"main\"]/div/div[2]/div/div[1]/input", "sessionId": "0acaaac44a7d77cc1a71f203cd054bc7"}
+Tue, 27 Jun 2017 14:40:46 remote_connection.py[line:565] DEBUG Finished Request
+Tue, 27 Jun 2017 14:40:46 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:58574/session/0acaaac44a7d77cc1a71f203cd054bc7/execute {"script": "arguments[0].setAttribute('style', arguments[1]);", "args": [{"ELEMENT": "0.44761571780726994-2", "element-6066-11e4-a52e-4f735466cecf": "0.44761571780726994-2"}, "background: yellow; border: 2px solid red;"], "sessionId": "0acaaac44a7d77cc1a71f203cd054bc7"}
+Tue, 27 Jun 2017 14:40:46 remote_connection.py[line:565] DEBUG Finished Request
+Tue, 27 Jun 2017 14:40:46 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:58574/session/0acaaac44a7d77cc1a71f203cd054bc7/element/0.44761571780726994-2/value {"text": "\u68ee\u6797\u4e4b\u738b", "value": ["\u68ee", "\u6797", "\u4e4b", "\u738b"], "id": "0.44761571780726994-2", "sessionId": "0acaaac44a7d77cc1a71f203cd054bc7"}
+Tue, 27 Jun 2017 14:40:46 remote_connection.py[line:565] DEBUG Finished Request
+Tue, 27 Jun 2017 14:40:46 pylog.py[line:23] INFO 10013MG电子7开始
+Tue, 27 Jun 2017 14:40:46 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:58574/session/0acaaac44a7d77cc1a71f203cd054bc7/element {"using": "xpath", "value": "//*[@id=\"main\"]/div/div[2]/div/div[1]/button", "sessionId": "0acaaac44a7d77cc1a71f203cd054bc7"}
+Tue, 27 Jun 2017 14:40:46 remote_connection.py[line:565] DEBUG Finished Request
+Tue, 27 Jun 2017 14:40:46 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:58574/session/0acaaac44a7d77cc1a71f203cd054bc7/element {"using": "xpath", "value": "//*[@id=\"main\"]/div/div[2]/div/div[1]/button", "sessionId": "0acaaac44a7d77cc1a71f203cd054bc7"}
+Tue, 27 Jun 2017 14:40:46 remote_connection.py[line:565] DEBUG Finished Request
+Tue, 27 Jun 2017 14:40:46 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:58574/session/0acaaac44a7d77cc1a71f203cd054bc7/execute {"script": "arguments[0].setAttribute('style', arguments[1]);", "args": [{"ELEMENT": "0.44761571780726994-3", "element-6066-11e4-a52e-4f735466cecf": "0.44761571780726994-3"}, "background: yellow; border: 2px solid red;"], "sessionId": "0acaaac44a7d77cc1a71f203cd054bc7"}
+Tue, 27 Jun 2017 14:40:46 remote_connection.py[line:565] DEBUG Finished Request
+Tue, 27 Jun 2017 14:40:46 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:58574/session/0acaaac44a7d77cc1a71f203cd054bc7/element/0.44761571780726994-3/click {"id": "0.44761571780726994-3", "sessionId": "0acaaac44a7d77cc1a71f203cd054bc7"}
+Tue, 27 Jun 2017 14:40:46 remote_connection.py[line:565] DEBUG Finished Request
+Tue, 27 Jun 2017 14:40:46 pylog.py[line:23] INFO 10014MG电子8开始
+Tue, 27 Jun 2017 14:40:51 pylog.py[line:23] INFO 10015MG电子9开始
+Tue, 27 Jun 2017 14:40:51 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:58574/session/0acaaac44a7d77cc1a71f203cd054bc7/execute {"script": "var q=document.body.scrollTop=200;", "args": [null, null], "sessionId": "0acaaac44a7d77cc1a71f203cd054bc7"}
+Tue, 27 Jun 2017 14:40:51 remote_connection.py[line:565] DEBUG Finished Request
+Tue, 27 Jun 2017 14:40:51 pylog.py[line:23] INFO 10016MG电子10开始
+Tue, 27 Jun 2017 14:40:51 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:58574/session/0acaaac44a7d77cc1a71f203cd054bc7/element {"using": "xpath", "value": "//*[@id=\"main\"]/div/div[2]/div/ul/li[1]/a/p[2]", "sessionId": "0acaaac44a7d77cc1a71f203cd054bc7"}
+Tue, 27 Jun 2017 14:40:51 remote_connection.py[line:565] DEBUG Finished Request
+Tue, 27 Jun 2017 14:40:51 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:58574/session/0acaaac44a7d77cc1a71f203cd054bc7/execute {"script": "arguments[0].setAttribute('style', arguments[1]);", "args": [{"ELEMENT": "0.44761571780726994-4", "element-6066-11e4-a52e-4f735466cecf": "0.44761571780726994-4"}, "background: yellow; border: 2px solid red;"], "sessionId": "0acaaac44a7d77cc1a71f203cd054bc7"}
+Tue, 27 Jun 2017 14:40:51 remote_connection.py[line:565] DEBUG Finished Request
+Tue, 27 Jun 2017 14:40:51 remote_connection.py[line:478] DEBUG GET http://127.0.0.1:58574/session/0acaaac44a7d77cc1a71f203cd054bc7/element/0.44761571780726994-4/text {"id": "0.44761571780726994-4", "sessionId": "0acaaac44a7d77cc1a71f203cd054bc7"}
+Tue, 27 Jun 2017 14:40:51 remote_connection.py[line:565] DEBUG Finished Request
+Tue, 27 Jun 2017 14:40:51 pylog.py[line:23] INFO 断言：10016MG电子10
+Tue, 27 Jun 2017 14:40:54 remote_connection.py[line:478] DEBUG DELETE http://127.0.0.1:58574/session/0acaaac44a7d77cc1a71f203cd054bc7/window {"sessionId": "0acaaac44a7d77cc1a71f203cd054bc7"}
+Tue, 27 Jun 2017 14:40:56 remote_connection.py[line:565] DEBUG Finished Request
